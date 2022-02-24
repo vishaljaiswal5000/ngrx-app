@@ -16,8 +16,6 @@ const _createReducer = createReducer(
 
 // Reducer with state and type of action
 export function storeReducer(state: any, action: Action) {
-  console.log('state', state);
-  console.log('action', action);
   return _createReducer(state, action);
 }
 
